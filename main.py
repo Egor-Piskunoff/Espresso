@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
 class Coffee(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('untitled1.ui', self)
+        uic.loadUi('main.ui', self)
         self.pushButton.clicked.connect(self.table)
 
     def table(self):
